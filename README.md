@@ -1,3 +1,42 @@
+# DOCUMENTATION
+Commands Used
+
+Task 1
+1.  git clone https://github.com/Sangiwe/coding-interview-university.git
+
+Task 2
+3. git checkout -b feature-update
+4. echo "Hello World" > newfile.txt
+   git add .
+   git commit -m "Add newfile.txt"
+5.  git checkout main
+    git merge feature-update
+
+Task 3
+6. git add .
+   git commit -m "Create conflict in file"
+7. git checkout -b conflict-resolution
+   git add .
+   git commit -m "Resolve Conflict"
+
+   Open-Source Project
+   Gradekeeper
+   Repo link : https://github.com/jacksonrakena/gradekeeper.git
+   My issue: It would be beneficial to have an export to CSV feature that allows users to download their grade data in a CSV format. This feature would help users easily share or analyze their grades outside of the application.
+
+Add an "Export to CSV" button in the user dashboard.
+Implement a function to convert grade data into CSV format.
+Provide options to export all grades or filtered views.
+Consider compatibility with various spreadsheet applications (e.g., Excel, Google Sheets).
+
+
+CHALLANGES
+> The challange I faced is that I can not see the conflicts and merging on my github after i had pushed everything, i am not sure if they are supposed to be visible on github since they were not initiated pn github.
+
+
+
+
+
 # Coding Interview University
 
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
